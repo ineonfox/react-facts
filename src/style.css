@@ -43,6 +43,10 @@ body {
     color: white;
     text-align: center;
     vertical-align: middle; 
+    background-image: url('./images/react-logo-large.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 250px;
 }
 
 .main > h1 {
@@ -52,13 +56,14 @@ body {
 }
 
 .main > ul {
-    display: inline-block; 
+    display: inline-block;
+    align-items: center; 
     text-align: left;
 }
 
 .main > ul > li {
     font-size: 20px;
-    padding-block: 10px;   
+    padding-block: 10px;
 }
 
 .main > ul > li::marker {
